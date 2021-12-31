@@ -116,6 +116,7 @@ a, a:hover{
 }
 .ps-img-box{
     margin-bottom: 40px;   
+    display:flex;
 }
 .ps-sm-heading{
     font-weight:600;
@@ -381,6 +382,386 @@ a, a:hover{
     letter-spacing: -0.3px;
     margin-bottom: 40px;
 }
+.products-premium-section{
+    padding:120px 0px;
+    background-color: #F5F5F5;
+}
+.pp-paragraph{
+    font-size:18px;
+    font-weight: 400;
+    margin-top:15px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    opacity: 0.7;
+    text-align: center;
+    letter-spacing: -0.4px;
+    width: 100%;
+}
+.pp-btn-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-usecases-section{
+    background-image: url('img/why-proxyverse.svg');
+    background-position: center center;
+    background-size: cover;
+    padding:120px 0px;
+}
+.puc-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.puc-pargraph{
+    font-size:18px;
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.puc-box{
+    border-radius:10px;
+    padding:40px 25px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    text-align: center;
+    margin-bottom:20px;
+}
+.puc-box .puc-sm-heading{
+    font-size:18px;
+    font-weight: 600;
+    margin-top:15px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.puc-box .puc-sm-paragraph{
+    font-size:14px;
+    font-weight: 400;
+    margin-top:15px;
+    margin-bottom:0px;
+    line-height: 24px;
+    color:#151515;
+    opacity: 0.7;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.rp-section{
+    background-image: url('img/products-banner-bg.png');
+    width: 100%;
+    height:100vh;
+    background-position: top;
+    background-size: cover;
+}
+.rp-section .rps-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.rp-section .rp-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.rp-section .rp-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;   
+}
+.how-works-section{
+    padding:120px 0px;
+}
+.hw-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.hw-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:40px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    opacity:0.7;
+    text-align: center;
+    letter-spacing: -0.4px;   
+}
+.faqs-section{
+    padding:120px 0px;
+}
+.faqs-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.accordion {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    color: #151515;
+    cursor: pointer;
+    padding: 45px 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-top:40px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #F5F5F5;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 45px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    background-color: #F5F5F5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+.panel .faqs-panel{
+    padding: 30px 50px;
+    font-size:18px;
+    font-weight: 300;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px; 
+}
+.blue-line-padding{
+    padding:0px 50px;
+}
+.blue-line-padding .blue-line{
+    height:1px;
+    width:100%;
+    background-color: #00B3D3;
+}
+.leadingp-section{
+    background-color: #F5F5F5;
+    padding:120px 0px;
+}
+.lp-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.lp-paragraph{
+    font-size:18px;
+    font-weight: 400;
+    margin-top:40px;
+    margin-bottom:40px;
+    line-height: 28px;
+    color:#151515;
+    opacity:0.7;
+    text-align: center;
+    letter-spacing: -0.4px; 
+}
+.lp-btn-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-proxy-section{
+    background-image: url('../../images/home/right-proxy-bg.png');
+    width:100%;
+    padding-top:120px;
+    background-size: cover;
+    background-position: center;
+}
+.rproxy-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.rproxy-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:30px;
+    margin-bottom:30px;
+    line-height: 28px;
+    color:#151515;
+    opacity:0.7;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.dc-scale-section{
+    background-image: url('../../images/home/scale.svg');
+    width:100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:120px 0px;
+}
+.dcs-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.dcs-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:50px;
+    margin-bottom:50px;
+    line-height: 28px;
+    color:#151515;
+    opacity:0.7;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.benefits-section{
+    padding:110px 0px;
+}
+.bfts-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.bfts-box{
+    background-color: white;
+    border-radius:10px;
+    transition: 0.3s;
+    text-align:center;
+    padding:40px 30px;
+    margin:10px 0px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border:1px solid white;
+}
+.bfts-box:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    border:1px solid rgba(0, 179, 211, 0.5);
+}
+.bfts-box .bfts-sm-heading{
+    font-size:20px;
+    font-weight:600;
+    margin-top:40px;
+    margin-bottom:0px;
+    line-height: 24px;
+    color:#151515;
+    width:70%;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.bfts-box .bfts-sm-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:15px;
+    margin-bottom:0px;
+    line-height: 24px;
+    color:#151515;
+    opacity: 0.7;
+    text-align: center;
+    letter-spacing: -0.4px;
+    width:80%;
+}
+.pfts-section{
+    padding:120px 0px;
+}
+.pfts-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.pfts-box{
+    padding:25px 40px;
+    border-radius:10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.11);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.11);
+}
+.pfts-box .pfts-sm-paragraph{
+    font-size:19px;
+    font-weight: 400;
+    margin-top:30px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px; 
+}
+.bold-span{
+    font-weight: 600;
+}
+
+
+
+
 @media(max-width:450px){
     .tl-box{
         margin-bottom:30px;
