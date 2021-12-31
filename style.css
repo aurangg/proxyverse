@@ -1,0 +1,135 @@
+
+@import url(css/bootstrap.min.css);
+@import url(css/animate.css);
+@import url(css/classy-nav.min.css);
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+/* Spacing */
+.mt-15 {
+  margin-top: 15px !important; }
+
+.mt-30 {
+  margin-top: 30px !important; }
+
+.mt-50 {
+  margin-top: 50px !important; }
+
+.mt-40 {
+    margin-top: 40px !important; }
+
+.mt-70 {
+  margin-top: 70px !important; }
+.mt-60{
+  margin-top:60px !important;
+}
+.mt-90 {
+    margin-top: 90px !important; }
+
+.mt-100 {
+  margin-top: 100px !important; }
+
+.mb-15 {
+  margin-bottom: 15px !important; }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
+
+.mb-50 {
+  margin-bottom: 50px !important; }
+
+.mb-70 {
+  margin-bottom: 70px !important; }
+  .mb-80 {
+    margin-bottom: 80px !important; }
+
+.mb-100 {
+  margin-bottom: 100px !important; }
+/* Height */
+
+.section-padding-90 {
+    padding-top: 90px;
+    padding-bottom: 90px; }
+    .section-padding-90-0 {
+      padding-top: 90px;
+      padding-bottom: 0px; }
+      .section-padding-0-90 {
+        padding-top: 0px;
+        padding-bottom: 90px; }
+
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent; }
+
+
+/* :: 4.0 Header Area */
+.header-area {
+  position: relative;
+  z-index: 200; }
+
+
+.clever-main-menu {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 70px; }
+  .clever-main-menu .classy-navbar {
+    height: 70px; }
+  .clever-main-menu .classynav ul li a {
+    color:#1F1F1F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  font-size: 14px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .clever-main-menu .classynav ul li a {
+        padding: 0 15px; } }
+    .clever-main-menu .classynav ul li a:hover, .clever-main-menu .classynav ul li a:focus {
+      opacity: 0.8; }
+
+  .clever-main-menu .classynav2 ul li a {
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: 600; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .clever-main-menu .classynav2 ul li a {
+        padding: 0 8px; } }
+  .clever-main-menu .classynav2 ul li a:hover, .clever-main-menu .classynav2 ul li a:focus {
+    color: rgba(0, 0, 0, 0.8); }
+
+
+
+.is-sticky .clever-main-menu {
+  z-index: 1500 !important;
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
+
+.register-login-area {
+  position: relative;
+  z-index: 1; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .register-login-area {
+      text-align: center; } }
+  @media only screen and (max-width: 767px) {
+    .register-login-area {
+      text-align: center; } }
