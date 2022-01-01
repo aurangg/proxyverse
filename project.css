@@ -33,6 +33,17 @@ a, a:hover{
   font-size:16px;
   font-weight:500;
 }
+.button-2{
+    width: auto;
+    padding:18px 25px;
+    border-radius: 45px;
+    outline:none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transition: 0.3s;
+    font-size:16px;
+    font-weight:500;
+}
 .blue-btn{
   background-color: #00B3D3;
   color:white;
@@ -209,6 +220,53 @@ a, a:hover{
     display:flex;
     align-items: center;
 }
+.rds-box{
+    background: white;
+    padding:50px 35px;
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    margin-bottom:20px;
+    display:flex;
+    align-items: center;
+}
+.rds-p-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.rds-sm-heading{
+    font-size:16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 24px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.special-width{
+    width:80% !important;
+}
+.w-h-80{
+    height:80px;
+    width: 80px;
+}
+.pb-120{
+    padding-bottom:120px;
+}
+.rds-paragraph{
+    width:100%;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    line-height: 30px;
+    color:#151515;
+}
 .fs-p-box{
     display:flex;
     align-items: flex-end;
@@ -248,7 +306,18 @@ a, a:hover{
     font-weight: 400;
     margin-top: 20px;
     margin-bottom:0px;
-    line-height: 115%;
+    line-height: 28px;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.uc-paragraph{
+    font-size:18px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom:0px;
+    line-height: 28px;
+    opacity:0.7;
     color:#151515;
     text-align: center;
     letter-spacing: -0.4px;
@@ -273,6 +342,11 @@ a, a:hover{
     padding:40px 10px;
     background-color: white;
     text-align: center;
+    margin-bottom: 20px;
+}
+.tl-box .tl-img{
+    width:80px;
+    height:80px;
 }
 .tl-box .tl-paragraph{
     font-size:16px;
@@ -313,6 +387,8 @@ a, a:hover{
 .why-proxyverse-section{
     background-image: url('img/why-proxyverse.svg');
     padding:120px 0px;
+    background-size: cover;
+    background-position: center;
 }
 .wp-heading{
     font-size:45px;
@@ -390,6 +466,18 @@ a, a:hover{
     font-size:18px;
     font-weight: 400;
     margin-top:15px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    opacity: 0.7;
+    text-align: center;
+    letter-spacing: -0.4px;
+    width: 100%;
+}
+.rdc-paragraph{
+    font-size:18px;
+    font-weight: 400;
+    margin-top:40px;
     margin-bottom:0px;
     line-height: 28px;
     color:#151515;
@@ -614,7 +702,7 @@ a, a:hover{
     justify-content: center;
 }
 .right-proxy-section{
-    background-image: url('../../images/home/right-proxy-bg.png');
+    background-image: url('img/right-proxy-bg.png');
     width:100%;
     padding-top:120px;
     background-size: cover;
@@ -637,11 +725,11 @@ a, a:hover{
     line-height: 28px;
     color:#151515;
     opacity:0.7;
-    text-align: center;
+    text-align: left;
     letter-spacing: -0.4px;
 }
 .dc-scale-section{
-    background-image: url('../../images/home/scale.svg');
+    background-image: url('img/scale.svg');
     width:100%;
     background-color: white;
     background-repeat: no-repeat;
@@ -758,8 +846,84 @@ a, a:hover{
 .bold-span{
     font-weight: 600;
 }
-
-
+.rp-section-2{
+    background-image: url('img/top-locations.png');
+    width: 100%;
+    height:100vh;
+    background-position: top;
+    background-size: cover;
+}
+.rp-section-2 .rp-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.rp-section-2 .rp-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;   
+}
+.btn-inline{
+    display: flex;
+    align-items: flex-start;
+}
+.all-locations-section{
+    background-color:#F5F5F5;
+    padding:120px 0px;
+}
+.aloc-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.aloc-sm-heading{
+    font-size:35px;
+    font-weight: 600;
+    margin-top:30px;
+    margin-bottom: 50px;
+    line-height: 115%;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.aloc-sm-paragraph{
+    font-size:16px;
+    font-weight: 300;
+    margin-bottom:30px;
+    line-height: 34px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;   
+}
+.go-premium-section{
+    background-image: url('img/go-premium-proxy-bg.svg');
+    padding:120px 0px;
+    background-size: cover;
+    background-position: center;
+}
+.gp-paragraph{
+    width:100%;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0.7;
+    color:#151515;
+}
 
 
 @media(max-width:450px){
