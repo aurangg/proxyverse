@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289.683" height="402" viewBox="0 0 289.683 402">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289.842" height="402" viewBox="0 0 289.842 402">
   <defs>
     <linearGradient id="linear-gradient" x1="23.412" y1="0.5" x2="24.412" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#c0bff6"/>
@@ -14,19 +14,11 @@
       <stop offset="0.849" stop-color="#a2a6f5"/>
       <stop offset="1" stop-color="#bcbeff"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-5" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#42e8e0"/>
-      <stop offset="0.106" stop-color="#36b5bf"/>
-      <stop offset="0.22" stop-color="#2c87a0"/>
-      <stop offset="0.338" stop-color="#235f86"/>
-      <stop offset="0.459" stop-color="#1b3e71"/>
-      <stop offset="0.582" stop-color="#162560"/>
-      <stop offset="0.711" stop-color="#121355"/>
-      <stop offset="0.846" stop-color="#0f084e"/>
-      <stop offset="1" stop-color="#0f054c"/>
-    </linearGradient>
   </defs>
-  <g id="Group_386" data-name="Group 386" transform="translate(-262.158 -1509)">
+  <g id="residential-proxy" transform="translate(-262.158 -1509)">
+    <circle id="Ellipse_2037" data-name="Ellipse 2037" cx="57.5" cy="57.5" r="57.5" transform="translate(309 1580)" fill="#f89f1b"/>
+    <circle id="Ellipse_2038" data-name="Ellipse 2038" cx="37.5" cy="37.5" r="37.5" transform="translate(477 1664)" fill="#f89f1b"/>
+    <circle id="Ellipse_2039" data-name="Ellipse 2039" cx="28.5" cy="28.5" r="28.5" transform="translate(281 1774)" fill="#f89f1b"/>
     <g id="Group_440" data-name="Group 440" transform="translate(168.187 1479.109)">
       <path id="Path_33" data-name="Path 33" d="M238.815,361.777l-.168-.1L93.971,278.153l.508-.292L238.811,194.53l.168.1,144.675,83.527-.506.292ZM95.323,278.153,238.815,361,382.3,278.154,238.811,195.308Z" transform="translate(0 70.094)" fill="#58ddf5"/>
       <path id="Path_34" data-name="Path 34" d="M207.445,253.021l-39.8-22.977,39.8-22.977,39.8,22.979ZM169,230.043l38.447,22.2,38.448-22.2-38.448-22.2Z" transform="translate(31.367 75.432)" fill="#58ddf5"/>
@@ -2096,7 +2088,6 @@
             </g>
           </g>
         </g>
-        <path id="Path_1719" data-name="Path 1719" d="M235.7,314.287V147.661H173.88l0,166.626a1.335,1.335,0,0,0,.79,1.129l28.2,16.282a4.238,4.238,0,0,0,3.835,0l28.2-16.282A1.328,1.328,0,0,0,235.7,314.287Z" transform="translate(-168.126 -147.661)" opacity="0.5" fill="url(#linear-gradient-5)" style="mix-blend-mode: lighten;isolation: isolate"/>
       </g>
     </g>
   </g>
