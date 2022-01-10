@@ -28,11 +28,11 @@
     </div> -->
 
     <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
+    <header class="header-area" id="header-area">
 
 
         <!-- Navbar Area -->
-        <div class="clever-main-menu">
+        <div class="clever-main-menu" id="classy-nav-id">
             <div class="classy-nav-container breakpoint-off">
                 <!-- Menu -->
                 <nav class="classy-navbar justify-content-between" id="cleverNav">
@@ -57,11 +57,19 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                              <li><a href="products.html">Products</a></li>
-                              <li><a href="pricing.html">Pricing</a></li>
-                              <li><a href="usecases.html">Use Cases</a></li>
-                              <li><a href="locations.html">Locations</a></li>
-                              <li><a href="dashboard.html">Client Dashboard</a></li>
+                                <li><a href="products.html">Products</a>
+                                    <ul class="dropdown">
+                                        <li><a href="residential.html">Residential Proxies</a></li>
+                                        <li><a href="static.html">Static Residential Proxies</a></li>
+                                        <li><a href="mobile-proxy.html">Mobile Proxies</a></li>
+                                          <li><a href="datacenter-proxy.html">Datacenter Proxies</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="usecases.html">Use Cases</a></li>
+                                <li><a href="top-locations.html">Top Locations</a></li>
+                                <li><a class="dashboard-btn" href="#">Client Dashboard</a></li>
                             </ul>
                         </div>
                         <!-- Nav End -->
@@ -450,22 +458,22 @@
                   <h2 class="f-heading">
                       Products
                   </h2>
-                  <a href="#">
+                  <a href="residential.html">
                       <p class="footer-links">
                           Residential Proxies
                       </p>
                     </a>
-                  <a href="#">
+                  <a href="static.html">
                       <p class="footer-links">
                           Static Residential Proxies
                       </p>
                     </a>
-                  <a href="#">
+                  <a href="mobile-proxy.html">
                       <p class="footer-links">
                           Mobile Proxies
                       </p>
                     </a>
-                  <a href="#">
+                  <a href="datacenter-proxy.html">
                       <p class="footer-links">
                           Datacenter Proxies
                       </p>
@@ -546,16 +554,19 @@
     <!-- Active js -->
     <script src="js/active.js"></script>
     <script>
-      function scrollFunction() {
-        if (document.body.scrollTop > ((window.innerHeight)*1) || document.documentElement.scrollTop > ((window.innerHeight)*1) ) {
-            document.getElementById("header-area").style.backgroundColor="white";
-            document.getElementById("header-area").style.boxShadow="0px 3px 20px 0px rgba(0,0,0,0.1)";
-        } else {
-            document.getElementById("header-area").style.boxShadow="0px 8px 16px 0px rgba(0,0,0,0)";
-          document.getElementById("header-area").style.backgroundColor="rgba(255,255,255,0)";
-        }
-      }
-    </script>
+        window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > ((window.innerHeight)*1) || document.documentElement.scrollTop > ((window.innerHeight)*1) ) {
+                document.getElementById("classy-nav-id").style.backgroundColor="rgba(255,255,255,1)";
+                document.getElementById("classy-nav-id").style.boxShadow = "0 5px 15px rgba(0, 0, 0, 0.15)";
+            } 
+            else {
+              document.getElementById("classy-nav-id").style.backgroundColor="rgba(255,255,255,0)";
+              document.getElementById("classy-nav-id").style.boxShadow = "0 5px 15px rgba(0, 0, 0, 0)";
+            }
+          }
+      </script>
     <script>
       var acc = document.getElementsByClassName("accordion");
       var i;

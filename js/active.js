@@ -8,6 +8,12 @@
     if ($.fn.classyNav) {
         $('#cleverNav').classyNav();
     }
+    if ($.fn.counterUp) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });
+    }
 
     // :: 8.0 Sticky Active Code
     if ($.fn.sticky) {

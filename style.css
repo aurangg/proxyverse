@@ -118,7 +118,10 @@ width:100%; }
         padding: 0 15px; } }
     .clever-main-menu .classynav ul li a:hover, .clever-main-menu .classynav ul li a:focus {
       opacity: 0.8; }
-
+      .classynav ul li.has-down>a:after,
+      .classynav ul li.megamenu-item>a:after{
+        content: url(img/down.svg);
+      }
   .clever-main-menu .classynav2 ul li a {
     color: rgba(0, 0, 0, 0.45);
     font-weight: 600; }
