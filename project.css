@@ -17,6 +17,13 @@ a, a:hover{
 .blue-span{
   color:#00B3D3;
 }
+.classynav ul li .dropdown li a{
+    border-bottom: none !important;
+}
+.active-blue{
+    background-color:#00B3D3;
+    border-bottom: none !important;
+}
 .usa-span{
     background: #002868;
     background: -webkit-linear-gradient(to right, #002868 0%, #BF0A30 50%);
@@ -25,6 +32,24 @@ a, a:hover{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.india-span{
+    background: #FF9933;
+    background: -webkit-linear-gradient(to right, #FF9933 40%, #C7C7C7 50%, #138808 100%);
+    background: -moz-linear-gradient(to right, #FF9933 40%, #C7C7C7 50%, #138808 100%);
+    background: linear-gradient(to right, #FF9933 40%, #C7C7C7 50%, #138808 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.uk-span{
+    background: #C8102E;
+    background: -webkit-linear-gradient(to right, #C8102E 40%, #C7C7C7 50%, #012169 100%);
+    background: -moz-linear-gradient(to right, #C8102E 40%, #C7C7C7 50%, #012169 100%);
+    background: linear-gradient(to right, #C8102E 40%, #C7C7C7 50%, #012169 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .germany-span{
     background: #000000;
@@ -131,7 +156,6 @@ a, a:hover{
 
 
 .hero-section{
-    /* background-image: url('img/hero-bg.png'); */
     background-image: url('img/hero-bg3.svg');
     width: 100%;
     height:100vh;
@@ -162,7 +186,6 @@ a, a:hover{
     align-items: flex-start;
 }
 .products-section{
-    /* background-image: url('img/products-bg.png'); */
     background-image: url('img/products-bg2.png');
     width:100%;
     padding:120px 0px;
@@ -258,6 +281,7 @@ a, a:hover{
     padding:10px 10px;
     border-radius:10px;
     text-align: center;
+    width: 100%;
     height:130px;
     display:flex;
     align-items:center;
@@ -377,6 +401,7 @@ a, a:hover{
     background-color: white;
     border-radius:10px;
     text-align: center;
+    width: 100%;
 }
 .uc-box-shadow{
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
@@ -633,12 +658,74 @@ a, a:hover{
     text-align: center;
     letter-spacing: -0.4px;
 }
+.hero-usecases-bg{
+    background-image: url('img/hero-usecases-bg.svg') !important;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.blur-section{
+    background-image: url('img/products-banner-bg.png');
+    width: 100%;
+    height:100vh;
+    background-position: top;
+    background-size: cover;
+}
+.blur-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.blur-sm-heading{
+    font-size:25px;
+    font-weight: 400;
+    margin-top:25px;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.blur-paragraph{
+    font-size:16px;
+    font-weight: 300;
+    margin-top:20px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
 .rp-section{
     background-image: url('img/products-banner-bg.png');
     width: 100%;
     height:100vh;
     background-position: top;
     background-size: cover;
+}
+.ucp-heading{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.ucp-paragraph{
+    font-size:16px;
+    font-weight: 300;
+    margin-top:20px;
+    margin-bottom:0px;
+    line-height: 28px;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
 }
 .top-locations-country{
     width: 100%;
@@ -679,7 +766,7 @@ a, a:hover{
     line-height: 28px;
     color:#151515;
     text-align: left;
-    letter-spacing: -0.4px;   
+    letter-spacing: -0.4px;
 }
 .how-works-section{
     padding:120px 0px;
@@ -731,7 +818,7 @@ a, a:hover{
     text-align: left;
     outline: none;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     transition: 0.4s;
     margin-top:10px;
   }
@@ -971,6 +1058,9 @@ a, a:hover{
 .bold-span{
     font-weight: 600;
 }
+.bold-span-2{
+    font-weight: 500;
+}
 .rp-section-2{
     background-image: url('img/top-locations.png');
     width: 100%;
@@ -999,7 +1089,7 @@ a, a:hover{
 }
 .ln-paragraph{
     font-size:16px;
-    font-weight: 400;
+    font-weight: 300;
     margin-top:20px;
     margin-bottom:0px;
     line-height: 28px;
@@ -1114,6 +1204,87 @@ a, a:hover{
 .country-main{
     margin-top:60px;
 }
+.loader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.loader .circle-of-loader2{
+    background-color:rgba(248,159,27);
+    border-radius:50%;
+    width:40vh;
+    height:40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader .circle-of-loader{
+    background-color:#fff;
+    border-radius:50%;
+    position: absolute;
+    width:35vh;
+    height:35vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 40px 0px rgba(248,159,27,0.4);
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(248,159,27,0.4);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(248,159,27,0.4);
+}
+.loader .circle-of-loader .country-vector{
+  width:80%;
+}
+.loader .ping {
+	-webkit-animation: ping 1.8s ease-in-out infinite both;
+	        animation: ping 1.8s ease-in-out infinite both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-25 22:22:58
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation ping
+ * ----------------------------------------
+ */
+ @-webkit-keyframes ping {
+    0% {
+      -webkit-transform: scale(0.2);
+              transform: scale(0.2);
+      opacity: 0.8;
+    }
+    80% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(2.2);
+              transform: scale(2.2);
+      opacity: 0;
+    }
+  }
+  @keyframes ping {
+    0% {
+      -webkit-transform: scale(0.2);
+              transform: scale(0.2);
+      opacity: 0.8;
+    }
+    80% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(2.2);
+              transform: scale(2.2);
+      opacity: 0;
+    }
+  }
 .country-box{
     background: white;
     padding:30px;
@@ -1212,8 +1383,324 @@ a, a:hover{
 .hw-btn:hover{
     background-color: #e7fbff;
 }
+.data-you-can-count{
+    width: 70%;
+}
+
+
+
+
+
 @media(max-width:450px){
+    .hero-section{
+        background-image: url('img/mobile-hero-bg.svg');
+    }
+    .hs-heading{
+        margin-top:-150px;
+    }
+    .hs-heading, .ps-heading, .ct-heading, .fs-heading, .uc-heading, .tl-heading, .wp-heading, .rp-section .rp-heading, .puc-heading, .bfts-heading, .hw-heading, .pfts-heading, .lp-heading, .rproxy-heading, .faqs-heading, .dcs-heading, .ucp-heading, .blur-heading, .rp-section-2 .rp-heading, .aloc-heading, .top-locations-country .ln-heading{
+        font-size:30px;
+    }
+    .hs-buttons{
+        margin-top:30px;
+    }
+    .button{
+        font-size:14px;
+        padding:12px 0px;
+    }
+    .products-section{
+        padding:80px 0px;
+    }
+    .ps-box{
+        padding:20px;
+    }
+    .ps-sm-heading{
+        font-size:25px;
+    }
+    .ps-paragraph{
+        font-size:14px;
+    }
+    .ps-ticks-text{
+        margin-left: 10px;
+    }
+    .cert-section{
+        padding:80px 0px;
+    }
+    .ct-text-box{
+        justify-content: center;
+    }
+    .ct-sm-heading{
+        font-size: 25px;
+        text-align: center;
+        line-height: 36px;
+    }
+    #ct-first{
+        margin-top:30px;
+    }
+    .ct-images{
+        margin:10px 0px;
+        width: 70%;
+    }
+    .features-section{
+        padding:70px 0px;
+    }
+    .row-mobile{
+        margin-left:0px;
+        margin-right: 0px;
+    }
+    .fs-box{
+        padding:20px 25px;
+        flex-direction: column;
+    }
+    .fs-paragraph{
+        width: 100%;
+        font-size: 14px;
+    }
+    .usecases-section{
+        padding:70px 0px;
+    }
+    .uc-box{
+        padding:20px;
+        width: 70%;
+    }
+    .top-location-section{
+        padding:70px 0px;
+    }
     .tl-box{
         margin-bottom:30px;
+    }
+    .tl-box .tl-ips{
+        font-size:35px;
+    }
+    .why-proxyverse-section{
+        padding:70px 0px;
+    }
+    .wp-box{
+        margin-top:50px;
+    }
+    .wp-sm-heading{
+        font-size: 25px;
+    }
+    .wp-paragraph{
+        font-size: 14px;
+        width: 100%;
+    }
+    .rp-section .rp-paragraph{
+        font-size: 14px;
+    }
+    .products-hero{
+        margin-top:30px;
+    }
+    .ps-img-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .products-premium-section{
+        padding:70px 0px;
+    }
+    .pp-paragraph{
+        padding:16px;
+        font-size:16px;
+    }
+    .m-box{
+        margin-top:30px;
+    }
+    .p-usecases-section{
+        padding:70px 0px;
+    }
+    .puc-box .puc-sm-paragraph{
+        width: 100%;
+    }
+    .residential-hero{
+        width: 60%;
+        margin-top:30px;
+    }
+    .benefits-section{
+        padding:70px 0px;
+    }
+    .bfts-box{
+        padding:25px;
+        border: 1px solid rgba(0, 179, 211, 0.5);
+    }
+    .bfts-box .bfts-sm-heading{
+        font-size: 18px;
+    }
+    .bfts-box .bfts-sm-paragraph{
+        font-size: 14px;
+        width: 100%;
+    }
+    .how-works-section{
+        padding:70px 0px;
+    }
+    .hw-paragraph{
+        font-size: 14px;
+    }
+    .pfts-section{
+        padding:70px 0px;
+    }
+    .pfts-box .pfts-sm-paragraph{
+        font-size: 16px;
+    }
+    .leadingp-section{
+        padding:70px 0px;   
+    }
+    .lp-paragraph{
+        font-size: 16px;
+    }
+    .rp-section{
+        background-image: url('img/mobile-right-proxy-bg.png');
+        height: auto;
+    }
+    .right-proxy-section{
+        padding-top:70px;
+        padding-bottom: 70px;
+        background-image:url('img/mobile-right-proxy-bg.png');
+    }
+    .rproxy-paragraph{
+        font-size: 14px;
+    }
+    .right-proxy-img{
+        margin-top:30px;
+    }
+    .faqs-section{
+        padding:70px 0px;
+    }
+    .accordion{
+        padding:20px;
+        font-size: 16px;
+    }
+    .accordion:after{
+        margin-left:0px;
+    }
+    .panel .faqs-panel{
+        padding:20px;
+        font-size: 14px;
+    }
+    .mp-mobile-mt{
+        margin-top:25vh;
+    }
+    .dc-scale-section{
+        background-image: url('img/mobile-scale.svg');
+        background-position: bottom;
+        padding:70px 0px;
+    }
+    .dcs-paragraph{
+        font-size: 14px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .lp-btn-center{
+        margin: 10px 0px;
+    }
+    .hero-usecases-bg{
+        background-image: url('img/mobile-hero-usecases-bg.svg') !important;
+    }
+    .rds-box{
+        padding:30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rds-p-box{
+        padding-left:0px;
+        align-items: center;
+    }
+    .rds-sm-heading{
+        text-align: center;
+    }
+    .rds-paragraph{
+        font-size: 14px;
+        text-align:center;
+    }
+    .rp-section .rp-sm-heading{
+        font-size: 20px;
+    }
+    .mobile-mt-30-picture{
+        margin-top:30px;
+    }
+    .mobile-picture-mt-wd{
+        margin-top:30px;
+        width: 80%;
+    }
+    .rdc-paragraph{
+        font-size:16px;
+    }
+    .special-width{
+        width: 100% !important;
+    }
+    .uc-paragraph{
+        font-size: 16px;
+        margin-top:30px;
+    }
+    .benefits-box .benefits-paragraph{
+        font-size:14px;
+    }
+    .benefits-box .ticks-img{
+        margin-right: 20px;
+    }
+    .go-premium-section{
+        padding:70px 0px;
+    }
+    .gp-paragraph{
+        font-size: 16px;
+    }
+    .rproxy-heading{
+        text-align: center;
+    }
+    .rproxy-sm-heading{
+        font-size: 18px;
+    }
+    .puc-pargraph{
+        font-size: 16px;
+    }
+    .ucp-paragraph, .blur-paragraph{
+        font-size: 14px;
+    }
+    .rp-section-2 .rp-paragraph{
+        font-size: 14px;
+    }
+    .button-2{
+        font-size:14px;
+        padding:12px;
+        margin:10px 0px;
+    }
+    .rp-section-2{
+        background-image: url('img/mobile-top-locations.png');
+    }
+    .ml-20{
+        margin-left: 10px;
+    }
+    .all-locations-section{
+        padding:70px 0px;
+    }
+    .aloc-sm-heading{
+        font-size: 25px;
+    }
+    .top-locations-country{
+        height: 100%;
+    }
+    .ln-sm-heading{
+        font-size: 20px;
+    }
+    .country-box{
+        margin:15px 0px; 
+    }
+    .section-b{
+        padding:70px 0px;
+    }
+
+
+
+    .footer .f-heading{
+        margin-top:30px;
+        font-size: 18px;
+    }
+    .footer .footer-links{
+        font-size: 14px;
+    }
+    .footer .copyright{
+        font-size: 14px;
     }
 }

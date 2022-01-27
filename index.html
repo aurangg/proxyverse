@@ -18,7 +18,6 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="project.css">
-
 </head>
 
 <body>
@@ -68,7 +67,16 @@
                                 </li>
                                 <li><a href="#">Pricing</a></li>
                                 <li><a href="usecases.html">Use Cases</a></li>
-                                <li><a href="top-locations.html">Top Locations</a></li>
+                                <li>
+                                    <a href="top-locations.html">Top Locations</a>
+                                    <ul class="dropdown">
+                                        <li><a href="usa.html">United States of America</a></li>
+                                        <li><a href="uk.html">United Kingdom</a></li>
+                                        <li><a href="canada.html">Canada</a></li>
+                                        <li><a href="india.html">India</a></li>
+                                        <li><a href="germany.html">Germany</a></li>
+                                    </ul>
+                                </li>
                                 <li><a class="dashboard-btn" href="#">Client Dashboard</a></li>
                             </ul>
                         </div>
@@ -82,7 +90,7 @@
     <section class="hero-section flx-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="150ms">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="50ms">
                     <!-- <p class="hs-paragraph">
                         Anonymity Resolved
                     </p> -->
@@ -124,12 +132,12 @@
               </div>
           </div>
           <div class="row products-row">
-              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="250ms">
+              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="50ms">
                   <div class="" style="width:100%">
                     <img src="img/residential-proxy.svg" alt="residential-proxy" />
                   </div>
               </div>
-              <div class="col-lg-6 wow fadeInUp" data-wow-delay="150ms">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                   <div class="ps-box">
                     <h2 class="ps-sm-heading">
                       Residential Proxies
@@ -164,7 +172,7 @@
               </div>
 
               
-              <div class="col-lg-6 wow fadeInUp" data-wow-delay="150ms">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="50ms">
                   <div class="ps-box">
                     <h2 class="ps-sm-heading">
                       Datacenter Proxies
@@ -197,15 +205,15 @@
                     </a>
                   </div>
               </div>
-              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="250ms">
+              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="100ms">
                   <img src="img/datacenter-proxy.svg" alt="datacenter-proxy" />
               </div>
 
 
-              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="150ms">
+              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="50ms">
                   <img src="img/isp-proxy.svg" alt="residential-proxy" />
               </div>
-              <div class="col-lg-6 wow fadeInUp" data-wow-delay="250ms">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                   <div class="ps-box">
                     <h2 class="ps-sm-heading">
                       ISP Proxies
@@ -240,7 +248,7 @@
               </div>
 
 
-              <div class="col-lg-6 wow fadeInUp" data-wow-delay="150ms">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="50ms">
                   <div class="ps-box">
                     <h2 class="ps-sm-heading">
                       Mobile Proxies
@@ -273,7 +281,7 @@
                     </a>
                   </div>
               </div>
-              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="250ms">
+              <div class="col-lg-6 text-center ps-img-box images wow fadeInUp" data-wow-delay="100ms">
                   <img src="img/mobile-proxy.svg" alt="residential-proxy" />
               </div>
 
@@ -297,7 +305,7 @@
                     </h2>
                 </div>
             </div>
-            <div class="col-lg-2 wow fadeInUp" data-wow-delay="150ms">
+            <div class="col-lg-2 wow fadeInUp flx-center-justify" data-wow-delay="50ms" id="ct-first">
                 <div class="ct-images">
                     <img src="img/iso.png" alt="iso" >
                     <p class="ct-paragraph">
@@ -305,7 +313,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-2 wow fadeInUp" data-wow-delay="200ms">
+            <div class="col-lg-2 wow fadeInUp flx-center-justify" data-wow-delay="100ms">
                 <div class="ct-images">
                     <img src="img/nist.png" alt="nist" >
                     <p class="ct-paragraph">
@@ -313,7 +321,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-2 wow fadeInUp" data-wow-delay="250ms">
+            <div class="col-lg-2 wow fadeInUp flx-center-justify" data-wow-delay="150ms">
                 <div class="ct-images">
                     <img src="img/iso.png" alt="iso" >
                     <p class="ct-paragraph">
@@ -333,43 +341,43 @@
                     Features<span class="blue-span">.</span>
                 </h2>
             </div>
-            <div class="row mt-50">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="150ms">
+            <div class="row mt-50 row-mobile">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="50ms">
                     <div class="fs-box">
                         <img src="img/f-1.png" alt="f-1" />
                         <div class="fs-p-box">
                             <p class="fs-paragraph">
-                                A large pool of 70M+ IPs to help you crawl freely and grow your business to your desired scale.
+                                A large <span class="bold-span-2">pool of 70M+ IPs</span> to help you crawl freely and grow your business to your desired scale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="fs-box">
+                        <img src="img/f-2.png" alt="f-2" />
+                        <div class="fs-p-box">
+                            <p class="fs-paragraph">
+                                Access 195+ countries for strategic geo-targeting with <span class="bold-span-2">premium high-speed</span> proxies fit for every need.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="150ms">
+                    <div class="fs-box">
+                        <img src="img/f-3.png" alt="f-3" />
+                        <div class="fs-p-box">
+                            <p class="fs-paragraph">
+                                <span class="bold-span-2">Get 99% uptime</span>, lowest fail rate with exceptional anonymity all packed in an easy-to-use service.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="fs-box">
-                        <img src="img/f-2.png" alt="f-2" />
-                        <div class="fs-p-box">
-                            <p class="fs-paragraph">
-                                Access 195+ countries for strategic geo-targeting with premium high-speed proxies fit for every need.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="250ms">
-                    <div class="fs-box">
-                        <img src="img/f-3.png" alt="f-3" />
-                        <div class="fs-p-box">
-                            <p class="fs-paragraph">
-                                Get 99% uptime, lowest fail rate with exceptional anonymity all packed in an easy-to-use service.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="fs-box">
                         <img src="img/f-4.png" alt="f-4" />
                         <div class="fs-p-box">
                             <p class="fs-paragraph">
-                                24/7 customer support to ensure your satisfaction round the clock, through and through.
+                                <span class="bold-span-2">24/7 customer support</span> to ensure your satisfaction round the clock, through and through.
                             </p>
                         </div>
                     </div>
@@ -389,7 +397,7 @@
             </div>
         </div>
         <div class="row m-box">
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="50ms">
                 <div class="uc-box">
                     <img src="img/email-protection.png" alt="email-protection" />
                     <p class="uc-paragraph">
@@ -397,7 +405,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="150ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="100ms">
                 <div class="uc-box">
                     <img src="img/brand-protection.png" alt="brand-protection" />
                     <p class="uc-paragraph">
@@ -405,7 +413,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="200ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="150ms">
                 <div class="uc-box">
                     <img src="img/seo-monitoring.png" alt="seo-monitoring" />
                     <p class="uc-paragraph">
@@ -413,15 +421,15 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="250ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="200ms">
                 <div class="uc-box">
-                    <img src="img/ad-verification.png" alt="ad-verification" />
+                    <img src="img/ads.png" alt="ad-verification" />
                     <p class="uc-paragraph">
                         Ad Verification
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="300ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="50ms">
                 <div class="uc-box">
                     <img src="img/travel-fare.png" alt="travel-fare" />
                     <p class="uc-paragraph">
@@ -429,7 +437,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="350ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="100ms">
                 <div class="uc-box">
                     <img src="img/price-monitoring.png" alt="price-monitoring" />
                     <p class="uc-paragraph">
@@ -437,7 +445,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="150ms">
                 <div class="uc-box">
                     <img src="img/sales-intelligence.png" alt="sales-intelligence" />
                     <p class="uc-paragraph">
@@ -445,7 +453,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="450ms">
+            <div class="col-lg-3 wow fadeInUp flx-center-justify" data-wow-delay="200ms">
                 <div class="uc-box">
                     <img src="img/market-research.png" alt="market-research" />
                     <p class="uc-paragraph">
@@ -474,7 +482,7 @@
             </div>
         </div>
         <div class="row m-box">
-            <div class="col-lg-4 wow fadeInUp" data-wow-delay="150ms">
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="50ms">
                 <div class="tl-box">
                     <img class="tl-img" src="img/usa.png" alt="United States of America" />
                     <p class="tl-paragraph">
@@ -489,7 +497,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="tl-box wow fadeInUp " data-wow-delay="200ms">
+                <div class="tl-box wow fadeInUp " data-wow-delay="100ms">
                     <img class="tl-img" src="img/germany.png" alt="Germany" />
                     <p class="tl-paragraph">
                         Germany
@@ -503,7 +511,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="tl-box wow fadeInUp" data-wow-delay="250ms">
+                <div class="tl-box wow fadeInUp" data-wow-delay="150ms">
                     <img class="tl-img" src="img/russia.png" alt="Russia" />
                     <p class="tl-paragraph">
                         Russia
@@ -538,9 +546,9 @@
                     Why Proxyverse<span class="blue-span">?</span>
                 </h1>
             </div>
-            <div class="row m-box wow fadeInUp" data-wow-delay="150ms">
+            <div class="row m-box wow fadeInUp row-mobile" data-wow-delay="50ms">
                 <div class="col-lg-6 text-center">
-                    <img src="img/truly-global.svg" alt="Truly Global" />
+                    <img class="wp-img" src="img/truly-global.svg" alt="Truly Global" />
                 </div>
                 <div class="col-lg-6 text-center wp-box">
                     <h2 class="wp-sm-heading">
@@ -551,7 +559,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row m-box wow fadeInUp" data-wow-delay="200ms">
+            <div class="row m-box wow fadeInUp row-mobile" data-wow-delay="100ms">
                 <div class="col-lg-6 text-center wp-box">
                     <h2 class="wp-sm-heading">
                         Perfectly Fitting
@@ -561,12 +569,12 @@
                     </p>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="img/perfectly-fitting.svg" alt="Perfectly Fitting" />
+                    <img class="wp-img" src="img/perfectly-fitting.svg" alt="Perfectly Fitting" />
                 </div>
             </div>
-            <div class="row m-box wow fadeInUp" data-wow-delay="250ms">
+            <div class="row m-box wow fadeInUp row-mobile" data-wow-delay="150ms">
                 <div class="col-lg-6 text-center">
-                    <img src="img/customer-centric.svg" alt="Customer Centeric" />
+                    <img class="wp-img" src="img/customer-centric.svg" alt="Customer Centeric" />
                 </div>
                 <div class="col-lg-6 text-center wp-box">
                     <h2 class="wp-sm-heading">
@@ -701,6 +709,8 @@
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <!-- Popper js -->
     <script src="js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
@@ -723,10 +733,7 @@
             document.getElementById("classy-nav-id").style.boxShadow = "0 5px 15px rgba(0, 0, 0, 0)";
           }
         }
-    </script>
-
-    
-
+    </script>  
 </body>
 
 </html>
