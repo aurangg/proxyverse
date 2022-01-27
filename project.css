@@ -17,6 +17,30 @@ a, a:hover{
 .blue-span{
   color:#00B3D3;
 }
+.usa-span{
+    background: #002868;
+    background: -webkit-linear-gradient(to right, #002868 0%, #BF0A30 50%);
+    background: -moz-linear-gradient(to right, #002868 0%, #BF0A30 50%);
+    background: linear-gradient(to right, #002868 0%, #BF0A30 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.germany-span{
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #141414 0%, #DD0000 30%, #FFCE00 80%);
+    background: -moz-linear-gradient(to right, #141414 0%, #DD0000 30%, #FFCE00 80%);
+    background: linear-gradient(to right, #141414 0%, #DD0000 30%, #FFCE00 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.canada-span{
+    color:#D80621;
+}
+.orange-span{
+    color:#F89F1B;
+}
 .red-span{
     color:#E1473D;
 }
@@ -354,8 +378,13 @@ a, a:hover{
     border-radius:10px;
     text-align: center;
 }
+.uc-box-shadow{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+}
 .uc-box .uc-paragraph{
-    font-size:18px;
+    font-size:16px;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom:0px;
@@ -612,7 +641,6 @@ a, a:hover{
     background-size: cover;
 }
 .top-locations-country{
-    background-image: url('img/usa-bg.png');
     width: 100%;
     height:100vh;
     background-position: top;
@@ -656,6 +684,9 @@ a, a:hover{
 .how-works-section{
     padding:120px 0px;
 }
+.grey-section{
+    background-color: #F5F5F5;
+}
 .hw-heading{
     font-size:45px;
     font-weight: 600;
@@ -693,7 +724,7 @@ a, a:hover{
     background-color: #F5F5F5;
     color: #151515;
     cursor: pointer;
-    padding: 45px 50px;
+    padding: 35px;
     width: 100%;
     border: none;
     border-radius: 5px;
@@ -702,7 +733,7 @@ a, a:hover{
     font-size: 18px;
     font-weight: 600;
     transition: 0.4s;
-    margin-top:40px;
+    margin-top:10px;
   }
   
   .active, .accordion:hover {
@@ -729,8 +760,8 @@ a, a:hover{
     border-bottom-right-radius: 5px;
   }
 .panel .faqs-panel{
-    padding: 30px 50px;
-    font-size:18px;
+    padding: 30px 35px;
+    font-size:16px;
     font-weight: 300;
     margin-bottom:0px;
     line-height: 28px;
@@ -739,7 +770,7 @@ a, a:hover{
     letter-spacing: -0.4px; 
 }
 .blue-line-padding{
-    padding:0px 50px;
+    padding:0px 35px;
 }
 .blue-line-padding .blue-line{
     height:1px;
@@ -774,6 +805,16 @@ a, a:hover{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.section{
+    width:100%;
+    padding-top:120px;
+}
+.section-b{
+    padding:120px 0px;
+}
+.section-b-120{
+    padding-bottom:120px;
 }
 .right-proxy-section{
     background-image: url('img/right-proxy-bg.png');
@@ -948,7 +989,7 @@ a, a:hover{
 }
 .ln-sm-heading{
     font-size:30px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top:20px;
     margin-bottom:0px;
     line-height: 40px;
@@ -1070,8 +1111,107 @@ a, a:hover{
     margin-left:10px;
     margin-bottom: 0px !important;
 }
-
-
+.country-main{
+    margin-top:60px;
+}
+.country-box{
+    background: white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+}
+.country-box .country-img{
+    width: 30%;
+}
+.country-box .country-proxy{
+    font-weight: 500;
+    font-size: 16px;
+    margin:15px 0px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    line-height: 24px;
+    color:#151515;
+}
+.country-box .country-description{
+    font-weight: 300;
+    font-size: 16px;
+    margin:0px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    line-height: 24px;
+    color:#151515;
+}
+.country-btn{
+    border-radius: 45px;
+    outline:none;
+    font-family: 'Poppins', sans-serif;
+    padding:5px;
+    margin-top:15px;
+    text-align: center;
+    transition: 0.3s;
+    font-size:14px;
+    font-weight:300;
+    background-color: white;
+    border:1px solid #00B3D3;
+    color:#00B3D3;
+}
+.country-btn:hover{
+    background-color: #e7fbff;
+}
+.hw-box{
+    background: white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    margin:20px 0px;
+}
+.hw-box .hw-box-heading{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom:30px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    line-height: 24px;
+    color:#151515;   
+}
+.hw-box .hw-box-description{
+    font-weight: 300;
+    font-size: 16px;
+    margin:0px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    line-height: 24px;
+    color:#151515;
+}
+.hw-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hw-btn{
+    border-radius: 45px;
+    outline:none;
+    font-family: 'Poppins', sans-serif;
+    padding:10px 20px;
+    margin-top:15px;
+    width: max-content;
+    text-align: center;
+    transition: 0.3s;
+    font-size:14px;
+    font-weight:300;
+    background-color: white;
+    border:1px solid #00B3D3;
+    color:#00B3D3;
+}
+.hw-btn:hover{
+    background-color: #e7fbff;
+}
 @media(max-width:450px){
     .tl-box{
         margin-bottom:30px;
