@@ -1,0 +1,53 @@
+<svg id="benefits-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="786.629" viewBox="0 0 1366 786.629">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_191" data-name="Rectangle 191" width="1366" height="768" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_25" data-name="Mask Group 25" clip-path="url(#clip-path)">
+    <g id="Group_595" data-name="Group 595">
+      <g id="Ellipse_2069" data-name="Ellipse 2069" transform="translate(1055 93)" fill="none" stroke="#f89f1b" stroke-width="5" opacity="0.3">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="12.5" fill="none"/>
+      </g>
+      <g id="Ellipse_2073" data-name="Ellipse 2073" transform="translate(1292 208)" fill="none" stroke="#f89f1b" stroke-width="2" opacity="0.3">
+        <circle cx="151" cy="151" r="151" stroke="none"/>
+        <circle cx="151" cy="151" r="150" fill="none"/>
+      </g>
+      <g id="Ellipse_2074" data-name="Ellipse 2074" transform="translate(-151 528)" fill="none" stroke="#f89f1b" stroke-width="2" opacity="0.3">
+        <circle cx="151" cy="151" r="151" stroke="none"/>
+        <circle cx="151" cy="151" r="150" fill="none"/>
+      </g>
+      <g id="Ellipse_2070" data-name="Ellipse 2070" transform="translate(288 727)" fill="none" stroke="#f89f1b" stroke-width="3" opacity="0.3">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="8.5" fill="none"/>
+      </g>
+      <g id="Ellipse_2071" data-name="Ellipse 2071" transform="translate(859 655)" fill="none" stroke="#f89f1b" stroke-width="3" opacity="0.3">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="8.5" fill="none"/>
+      </g>
+      <g id="Ellipse_2072" data-name="Ellipse 2072" transform="translate(30 208)" fill="none" stroke="#f89f1b" stroke-width="3" opacity="0.3">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="8.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_584" data-name="Group 584" transform="translate(1219.971 648.107)" opacity="0.3">
+    <g id="Locator" transform="translate(14.255 0)">
+      <g id="Group_33" data-name="Group 33">
+        <g id="Group_32" data-name="Group 32">
+          <g id="Group_29" data-name="Group 29" transform="translate(7.095)">
+            <path id="Path_61" data-name="Path 61" d="M325.674,247.31l8.737-5.018,0,0c4.169-2.79,9.96-2.671,16.363,1.026,12.7,7.333,23,25.951,23,41.585v3.558c0,15.634-21.019,32.623-21.019,32.623l-8.595,4.862s5.163-5.887,4.574-7.094c-5.629-11.554-20.955-44.183-20.955-56.945v-3.558a27.778,27.778,0,0,1,.984-7.633l-.985.569Zm25.1,35.842c6.35,3.667,11.5.695,11.5-6.638-3.419-.538-12.014-15.21-11.5-19.917-6.351-3.667-11.5-.694-11.5,6.639S344.425,279.487,350.775,283.153Z" transform="translate(-325.674 -240.356)" fill="#f89f1b"/>
+          </g>
+          <g id="Group_30" data-name="Group 30" transform="translate(7.095)" opacity="0.2">
+            <path id="Path_62" data-name="Path 62" d="M325.674,247.31l8.737-5.018,0,0c4.169-2.79,9.96-2.671,16.363,1.026,12.7,7.333,23,25.951,23,41.585v3.558c0,15.634-21.019,32.623-21.019,32.623l-8.595,4.862s5.163-5.887,4.574-7.094c-5.629-11.554-20.955-44.183-20.955-56.945v-3.558a27.778,27.778,0,0,1,.984-7.633l-.985.569Zm25.1,35.842c6.35,3.667,11.5.695,11.5-6.638-3.419-.538-12.014-15.21-11.5-19.917-6.351-3.667-11.5-.694-11.5,6.639S344.425,279.487,350.775,283.153Z" transform="translate(-325.674 -240.356)"/>
+          </g>
+          <g id="Group_31" data-name="Group 31" transform="translate(0 5.309)">
+            <path id="Path_63" data-name="Path 63" d="M341.3,267.369c0-15.634,10.3-22.363,23-15.031s23,25.951,23,41.585v3.558c0,12.039-13.637,26.008-19.909,31.8a3.1,3.1,0,0,1-4.889-.911c-5.418-11.087-21.2-44.49-21.2-57.439Zm23,24.8c6.35,3.666,11.5.694,11.5-6.639s-5.148-16.249-11.5-19.916-11.5-.694-11.5,6.639S357.942,288.505,364.293,292.172Z" transform="translate(-341.296 -249.372)" fill="#f89f1b"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <ellipse id="Ellipse_2061" data-name="Ellipse 2061" cx="40.999" cy="9.5" rx="40.999" ry="9.5" transform="translate(81.388 119.893) rotate(-173)" fill="#00b3d3" opacity="0.2"/>
+  </g>
+</svg>

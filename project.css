@@ -773,6 +773,9 @@ a, a:hover{
 .how-works-section{
     padding:120px 0px;
 }
+.how-works-section-2{
+    padding-top:120px;
+}
 .grey-section{
     background-color: #F5F5F5;
 }
@@ -972,6 +975,9 @@ a, a:hover{
     letter-spacing: -0.4px;
 }
 .benefits-section{
+    background-image: url('img/benefits-bg.svg');
+    background-position: center;
+    background-size: cover;
     padding:110px 0px;
 }
 .bfts-heading{
@@ -993,7 +999,6 @@ a, a:hover{
     display:flex;
     align-items: center;
     flex-direction: column;
-    cursor: pointer;
     border:1px solid white;
 }
 .bfts-box:hover{
@@ -1534,6 +1539,9 @@ a, a:hover{
     }
     .how-works-section{
         padding:70px 0px;
+    }
+    .how-works-section-2{
+        padding-top:70px;
     }
     .hw-paragraph{
         font-size: 14px;
