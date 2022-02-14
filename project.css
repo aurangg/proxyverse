@@ -1393,12 +1393,16 @@ a, a:hover{
 .data-you-can-count{
     width: 70%;
 }
-
-
+.mobile-only{
+    display: none !important;
+}
 
 
 
 @media(max-width:450px){
+    .mobile-only{
+        display: block !important;
+    }
     .hero-section{
         background-image: url('img/mobile-hero-bg.svg');
     }
