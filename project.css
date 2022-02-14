@@ -143,6 +143,12 @@ a, a:hover{
 .width-80{
   width:80%;
 }
+.flx-center-column{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
 .flx-center{
   display:flex;
   align-items: center;
@@ -464,6 +470,77 @@ a, a:hover{
 .price-box .price-btn:hover{
     background-color: #fff;
     color:#00B3D3;
+}
+.affiliate-section{
+    padding:120px 0px 100px 0px;
+    background-color: white;
+    background-image: url('img/affiliate-bg.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.affiliate-box, .steps-box{
+    background-color: white;
+    padding:40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+}
+.affiliate-box .affiliate-bg-heading{
+    font-size: 65px;
+    font-weight: 600;
+    color:#151515;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.affiliate-box .affiliate-sm-heading{
+    font-size: 16px;
+    font-weight: 400;
+    color:#151515;
+    margin:20px 0px;
+    text-align: center;
+}
+.affiliate-box .affiliate-line{
+    background-color: #e1e1e1;
+    height: 1px;
+    width: 100%;
+    border-radius: 1px;
+}
+.affiliate-box .affiliate-description{
+    font-size: 16px;
+    font-weight: 300;
+    color:#151515;
+    opacity: 0.7;
+    margin-top:20px;
+    text-align: center;
+}
+.steps-section{
+    padding-top:120px;
+}
+.steps-box .step-name{
+    font-size: 24px;
+    font-weight: 600;
+    color:#151515;
+    margin:20px 0px;
+    text-align: center;
+}
+.steps-box .step-name .span-number{
+    font-size: 24px;
+    font-weight: 600;
+    color:#151515;
+    opacity: 0.2;
+    text-align: center;
+}
+.steps-box .step-description{
+    font-size: 16px;
+    font-weight: 300;
+    color:#151515;
+    text-align: center;
+}
+.become-affiliate-section{
+    padding:120px 0px;
 }
 .rds-paragraph{
     width:100%;
@@ -1522,6 +1599,12 @@ a, a:hover{
         font-size:14px;
         padding:12px 0px;
     }
+    .affiliate-section{
+        padding:80px 0px;
+    }
+    .steps-section{
+        padding-top:80px;
+    }
     .products-section{
         padding:80px 0px;
     }
@@ -1827,6 +1910,12 @@ a, a:hover{
     }
     .country-margin{
         margin-top:100px;
+    }
+    .affiliate-box .affiliate-bg-heading{
+        font-size: 45px;
+    }
+    .affiliate-box .affiliate-sm-heading, .affiliate-box .affiliate-description{
+        font-size: 14px;
     }
 
 
