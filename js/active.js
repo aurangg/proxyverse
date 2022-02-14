@@ -23,7 +23,7 @@
     }
 
     // :: 9.0 wow Active Code
-    if (browserWindow.width() > 0) {
+    if (browserWindow.width() > 768) {
         new WOW().init();
     }
 
