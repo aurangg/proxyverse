@@ -131,6 +131,10 @@ width:100%; }
   .clever-main-menu .classynav2 ul li a:hover, .clever-main-menu .classynav2 ul li a:focus {
     color: rgba(0, 0, 0, 0.8); }
 
+    .active-class{
+      border-bottom:2px solid #32b3d3;
+      border-radius: 0px !important;
+    }
 
 
 .is-sticky .clever-main-menu {
