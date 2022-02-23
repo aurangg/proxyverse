@@ -360,6 +360,9 @@ a, a:hover{
 .p-30vh{
     padding: 30vh 0vh;
 }
+.p-20vh{
+    padding: 20vh 0vh;
+}
 .w-h-80{
     height:80px;
     width: 80px;
@@ -585,6 +588,15 @@ a, a:hover{
     border-radius:10px;
     text-align: center;
     width: 100%;
+    transition: 0.3s;
+    border:1px solid white;
+}
+.uc-box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    border:1px solid rgba(0, 179, 211, 0.5);
 }
 .uc-box-shadow{
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
@@ -1168,6 +1180,49 @@ a, a:hover{
     text-align: center;
     letter-spacing: -0.4px;
 }
+.reseller-box{
+    background-color: white;
+    border-radius:10px;
+    transition: 0.3s;
+    text-align:center;
+    padding:40px 20px;
+    margin:10px 0px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid white;
+    width: 100%;
+}
+.reseller-box:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    border:1px solid rgba(0, 179, 211, 0.5);
+}
+.reseller-box-2{
+    border-radius:10px;
+    transition: 0.3s;
+    text-align:center;
+    padding:40px 20px;
+    margin:10px 0px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.reseller-box-2:hover{
+    background-color: white;
+}
+.reseller-paragraph{
+    font-size:16px;
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom:0px;
+    line-height: 24px;
+    color:#151515;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
 .bfts-box{
     background-color: white;
     border-radius:10px;
@@ -1177,6 +1232,7 @@ a, a:hover{
     margin:10px 0px;
     display:flex;
     align-items: center;
+    width: 100%;
     flex-direction: column;
     border:1px solid white;
 }
@@ -1902,6 +1958,9 @@ a, a:hover{
         padding:70px 0px;
     }
     .p-30vh{
+        padding:0px 15px;
+    }
+    .p-20vh{
         padding:0px 15px;
     }
     .flex-reverse{
