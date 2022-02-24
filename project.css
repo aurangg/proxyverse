@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 body{
   background-color: white;
   padding:0px;
@@ -195,7 +197,7 @@ a, a:hover{
     width:100%;
     padding:120px 0px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .ps-heading{
     font-size:45px;
@@ -358,10 +360,10 @@ a, a:hover{
     width:80% !important;
 }
 .p-30vh{
-    padding: 30vh 0vh;
+    padding: 30vh 0vh 0vh 0vh;
 }
 .p-20vh{
-    padding: 20vh 0vh;
+    padding: 20vh 0vh 0vh 0vh;
 }
 .w-h-80{
     height:80px;
@@ -380,6 +382,79 @@ a, a:hover{
     line-height: 115%;
     color:#151515;
     letter-spacing: -0.4px;
+}
+.blog-box{
+    background-color: white;
+    padding:20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    margin-bottom:30px;
+    transition: 0.3s;
+    border:1px solid white;
+    cursor: pointer;
+}
+.blog-box .blog-img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog-box .blog-title{
+    font-size:18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 115%;
+    color:#151515;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+.blog-box .blog-description{
+    font-size: 14px;
+    font-weight: 300;
+    color:#151515;
+    margin-bottom: 0px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blog-box:hover{
+    border:1px solid rgba(0, 179, 211, 1);
+}
+.term{
+    margin-top:40px;
+}
+.term .term-name-bg{
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 700;
+    color:#151515;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.term .term-name{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+    color:#151515;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.term .term-description{
+    color:#151515;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.term ul{
+    padding-left:2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.term ul li{
+    list-style:disc !important;
 }
 .price-box{
     background-color: white;
@@ -822,14 +897,21 @@ a, a:hover{
     border-radius:10px;
     padding:40px 25px;
     background-color: white;
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    border:1px solid white;
     text-align: center;
     margin-bottom:20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.puc-box:hover{
+    border:1px solid rgba(0, 179, 211, 1);
 }
 .puc-box .puc-sm-heading{
     font-size:18px;
@@ -1097,6 +1179,9 @@ a, a:hover{
 .section-b{
     padding:120px 0px;
 }
+.section-b-0{
+    padding:120px 0px 0px 0px;
+}
 .section-b-120{
     padding-bottom:120px;
 }
@@ -1190,18 +1275,13 @@ a, a:hover{
     display:flex;
     align-items: center;
     flex-direction: column;
-    border:1px solid white;
-    width: 100%;
-}
-.reseller-box:hover{
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-    border:1px solid rgba(0, 179, 211, 0.5);
+    width: 100%;
 }
 .reseller-box-2{
     border-radius:10px;
-    transition: 0.3s;
     text-align:center;
     padding:40px 20px;
     margin:10px 0px;
@@ -1209,8 +1289,7 @@ a, a:hover{
     align-items: center;
     flex-direction: column;
     width: 100%;
-}
-.reseller-box-2:hover{
+    transition: 0.3s;
     background-color: white;
 }
 .reseller-paragraph{
@@ -1807,6 +1886,9 @@ a, a:hover{
     }
     .leadingp-section{
         padding:70px 0px;   
+    }
+    .section-b-0{
+        padding:70px 0px 0px 0px;
     }
     .lp-paragraph{
         font-size: 16px;
