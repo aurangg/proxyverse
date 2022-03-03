@@ -424,6 +424,9 @@ a, a:hover{
 .term{
     margin-top:40px;
 }
+.mb-30{
+    margin-bottom: 30px;
+}
 .term .term-name-bg{
     font-size: 32px;
     line-height: 34px;
